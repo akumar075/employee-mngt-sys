@@ -1,0 +1,17 @@
+.home{
+    display:flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    padding:20px;
+    justify-content: center;
+    align-content: center;
+    width: 825px;
+}
+
+.home-container{
+    display:flex;
+    background-color: darkcyan;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}

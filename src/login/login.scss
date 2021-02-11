@@ -1,0 +1,45 @@
+.login-container{
+    background-color: darkcyan;
+    display:flex;
+    height:100vh;
+    width:auto;
+}
+.login{
+    background-color: cadetblue;
+    margin: auto;
+    width: 500px;
+    padding: 50px;
+    position: relative;
+    height: 250px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-details{
+    display:flex;
+    height:40px;
+    width:auto;
+    justify-content: space-around;
+    margin: 50px 0px 50px 0px;
+    h3{
+        margin-top: 5px;
+        color:rgb(239, 239, 239);
+    }
+    input{
+        width: 200px;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(239, 239, 239);
+    }
+}
+
+.btn{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    justify-content: center;
+    align-self: center;
+}

@@ -1,0 +1,15 @@
+.server-search{
+    display:flex;
+    justify-content: space-between;
+    height:40px;
+    padding: 10px 40px 10px 40px;
+    button{
+        width: 125px;
+        border-radius: 5px;
+        border:none;
+    }
+    input{
+        border-radius: 5px;
+        border:none;  
+    }
+}
