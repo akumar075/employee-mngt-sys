@@ -30,7 +30,7 @@ namespace empMgmtService
                 options.AddPolicy("Policy1",
                     builder =>
                     {
-                        builder.WithOrigins("http://localhost:3002")
+                        builder.WithOrigins("http://localhost:3000")
                         .AllowAnyHeader()
                         .AllowAnyMethod();
                     });
